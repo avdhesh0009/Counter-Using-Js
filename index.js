@@ -14,6 +14,8 @@ const increment = ()=>{
 }
 const decrement = ()=>{
     let value=parseInt(countValue.innerText);
+
+    
     value=value-1;
     countValue.innerText=value;
 }
